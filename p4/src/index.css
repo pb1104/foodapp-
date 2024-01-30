@@ -1,0 +1,7 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg,rgb(250, 118, 118),rgb(117, 65, 65),rgb(87, 29, 29));
+}

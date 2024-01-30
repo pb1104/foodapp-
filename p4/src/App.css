@@ -1,0 +1,55 @@
+.card{
+    height: 380px;
+    width: 500px;
+    background: linear-gradient(90deg,rgb(246, 155, 155),rgb(188, 129, 129),rgb(93, 82, 82));
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+}
+.d1{
+    display: flex;
+    gap: 50px;
+}
+.i1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px double #FF4343;
+}
+nav{
+ background: #323334;
+    color: white;
+    display: flex;
+    gap: 20%;
+}
+button{
+    height: 29px;
+    width: 72px;
+    margin: 20px;
+    background: #FF4343;
+    color: white;
+    font-weight: 800px;
+    border: 0;
+    border-radius: 20px;
+}
+nav p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.card p{
+    color: white;
+    margin-top: 20px;
+}
+.card h1{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+button:hover{
+ color: #FF4343;
+ background-color: white;
+}
